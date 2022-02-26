@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Css style link is here  -->
+    <link rel="stylesheet" href="./style/stay_searched.css" />
+  </head>
+  <body>
+    <!-- nav bar html code start from here -->
+    <div id="navbar">
+      <div>
+        <div class="bar">
+          <img
+            src="https://www.expedia.co.in/_dms/header/logo.svg?locale=en_GB&siteid=27&2"
+          />
+        </div>
+        <div class="bar1">
+          <select class="select" onchange="MoreTravel()">
+            <option value="More Travel">More Travel</option>
+            <option value="stays">Stays</option>
+            <option value="Flight">flight</option>
+            <option value="Cars">Cars</option>
+            <option value="Packages">packages</option>
+            <option value="Holiday Package">holiday Package</option>
+            <option value="Deals">Deals</option>
+            <option value="Groups & Meetings">Groups & Meetings</option>
+            <option value="Mobile">Moblie</option>
+          </select>
+        </div>
+      </div>
+      <div id="bar2">
+        <div id="box">
+          <div>
+            <img
+              id="img1"
+              src="https://cdn-icons-png.flaticon.com/512/558/558593.png"
+              alt="wed"
+            />
+          </div>
+          <div><a href="">English</a></div>
+        </div>
+        <div><a href="">Support</a></div>
+        <div><a href="">Trips</a></div>
+        <div class="hcolor4">Sign in</div>
+        <div class="hcolor10">Create Account</div>
+    </div>
+    </div>
+    <div id="line"></div>
+
+    <!-- search bar code start from here -->
+    <div id="formcontainer">
+      <div>
+        <input
+          type="text"
+          onkeyup="searchplace()"
+          id="place"
+          placeholder="Going to"
+        />
+      </div>
+      <div>
+        <label for="check-in">Check-in</label>
+        <input
+          type="date"
+          name="checkInDate"
+          id="checkInDate"
+          placeholder="Check-In"
+        />
+      </div>
+      <div>
+        <label for="check-out">Check-out</label>
+        <input
+          type="date"
+          name="CheckOutDate"
+          id="checkOutDate"
+          placeholder="Check-Out"
+        />
+      </div>
+      <div>
+        <p id="travNo">Traveler~2</p>
+        <p id="roomNo">Rooms~1</p>
+        <button onclick="addT()" id="addt">+ Traveler</button>
+        <button onclick="removeT()" id="removet">- traveler</button>
+        <button onclick="addR()" id="addr">+ Rooms</button>
+        <button onclick="removeR()" id="remover">- Rooms</button>
+      </div>
+      <div>
+        <button onclick="searchbtn()" value="Search" id="search">Search</button>
+      </div>
+    </div>
+
+    <!-- Main Content code Start from here -->
+    <h2 id="hotelAvailable"></h2>
+    <div id="mainpage">
+      <div id="filter">
+        <div>
+          <h3>Search by property name</h3>
+          <div>
+            <input type="text" id="proprtySearch" placeholder="Search" />
+          </div>
+        </div>
+        <div>
+          <h2>Filter By</h2>
+          <div>
+            <p>Populer filters</p>
+            <input type="checkbox" name="Villa" id="Villa" value="Villa" />
+            <input type="checkbox" name="Villa" id="Villa" value="Villa" />
+          </div>
+          <select name="price" id="price" onchange="sortByPrice()">
+            <option value="">Price</option>
+            <option value="l2h">Low to high</option>
+            <option value="h2l">Hight to Low</option>
+          </select>
+          <select name="By rating" id="sortRating" onchange="sortByRating()">
+            <option value="">Rating</option>
+            <option value="l2h">Low to high Rating</option>
+            <option value="h2l">Hight to low rating</option>
+          </select>
+        </div>
+      </div>
+      <div id="centerData">
+        <div id="recomendedI">
+          <div><a href="">Search for best deal property</a></div>
+          <div>
+            <!-- <label for="sort by">sort by</label> -->
+            <select
+              name="Rcomended for you"
+              onchange="sortBy()"
+              id="recomended"
+            >
+              <option value="">Recomended</option>
+              <option value="rating">Rating</option>
+              <option value="price">Price</option>
+              <option value="distance">distance from city center</option>
+              <option value="guestrating">Guest rating + our choice</option>
+            </select>
+          </div>
+        </div>
+        <div id="hoteldata"></div>
+      </div>
+    </div>
+
+    <!-- Footer code start from here  -->
+    <div id="footer">
+      <div>
+        <img
+          aria-label="opens in a new window"
+          src="https://a.travel-assets.com/globalcontrols-service/content/f285fb631b0a976202ef57611c7050e9ef5ca51a/images/EG_Wordmark_blue_RGB.svg"
+          alt="Expedia Group Logo"
+          width="100%"
+        />
+      </div>
+      <div>
+        <h5>Company</h5>
+        <p class="blue">About</p>
+        <p class="blue">Jobs</p>
+        <p class="blue">List your property</p>
+        <p class="blue">partnerships</p>
+      </div>
+      <div>
+        <h5>Explore</h5>
+        <p class="blue">India travel guide</p>
+        <p class="blue">Hotels in india</p>
+        <p class="blue">Holiday packages in india</p>
+        <p class="blue">holiday rentals in india</p>
+        <p class="blue">Domestic flights</p>
+        <p class="blue">Car hire in india</p>
+        <p class="blue">All accommodation tpes</p>
+        <p class="blue">Travel blog</p>
+      </div>
+      <div>
+        <h5>Terms and policies</h5>
+        <p class="blue">Privacy Statement</p>
+        <p class="blue">Terms of use</p>
+      </div>
+      <div>
+        <h5>Help</h5>
+        <p class="blue">Support</p>
+        <p class="blue">Change or cancel your booking</p>
+        <p class="blue">Refund process and timeslines</p>
+        <p class="blue">Book a flight using an airline credit</p>
+        <p class="blue">International travel documents</p>
+      </div>
+    </div>
+    <div id="line12"></div>
+    <div id="lastbox">
+      <img
+        src="https://images.trvl-media.com/media/content/expind/images/sg/secure.png"
+        alt="Secured Site - Verizon Cybertrust Security"
+      />
+    </div>
+    <div id="lastbox1">
+      <p class="black1">
+        © 2022 Expedia, Inc., an Expedia Group company / Expedia Asia Holdings
+        Mauritius / BEX Travel Asia Pte. Ltd. All rights reserved. Expedia and
+        the Airplane Logo are trademarks or registered trademarks of Expedia,
+        Inc.
+      </p>
+    </div>
+  </body>
+</html>
+
+<!-- Js file link here -->
+<script src="./data/hotelData.js"></script>
+<script src="./js/satay_searched.js"></script>

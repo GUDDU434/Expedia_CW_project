@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/e9a802e1b6.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="/style/review.css" />
+  </head>
+  <body>
+    <div id="signLogo">
+      <div>
+        <img
+          src="https://www.expedia.co.in/_dms/interstitial/logo.svg?locale=en_GB&siteid=27"
+          alt="signLogo"
+        />
+      </div>
+      <div>
+        <p>Hello, <span id="name1">name</span></p>
+      </div>
+    </div>
+    <div class="stline"></div>
+    <h1 id="name">Review and book</h1>
+    <div id="review">
+      <!-- Append here the booking Data -->
+      <!-- ---------------------------------------------------------------------------------------------------- -->
+      <div id="rwimage">
+        <h1 id="HotelName">Marioott Juhu Mumbai</h1>
+      </div>
+      <h4 id="rating">Rating: 4.7/5</h4>
+      <p id="guestcall">Guest rated this property for our service and cleaness</p>
+      <p id="roomNo">Room No:</p>
+      <p id="checkin">check-in:</p>
+      <p id="checkout">Check out:</p>
+    </div>
+    <div id="hBook">
+      <i class="fa-solid fa-lock"></i>
+      <span
+        style="
+          color: gray;
+          margin-top: 13px;
+          margin-left: 10px;
+          font-weight: bold;
+        "
+        >Signed in as</span
+      >
+      <p></p>
+      <p id="signAs" style="margin-top: 35px; margin-left: -70px; font-size: 23px">
+        Email@gmai.com
+      </p>
+    </div>
+    <div id="room">
+      <i style="margin-top: 20px" class="fa-solid fa-user-large"></i>
+      <p style="padding-left: 15px; margin-top: 20px">
+        <span style="font-weight: bold">Room 1 : </span> 2 Adults 2 Twin Beds
+        Smoking
+      </p>
+      <p style="padding-top: 10px; margin-left: -280px; color: green">
+        <i class="fa-solid fa-check"></i>Free Parking<i
+          class="fa-solid fa-check"
+        ></i
+        >Free WiFi
+      </p>
+
+      <form id="form">
+        <p>Traveller Name <span style="color: red; font-size: 15px">*</span></p>
+        <input id="tname" type="text" placeholder="Traveller Name" />
+        <p></p>
+        <div id="fName">
+          <div>
+            <p>First name<span style="color: red; font-size: 15px">*</span></p>
+            <input id="fname" type="text" placeholder="First Name" />
+          </div>
+          <div>
+            <p>Last name<span style="color: red; font-size: 15px">*</span></p>
+
+            <input id="lname" type="text" placeholder="Last Name" />
+          </div>
+        </div>
+        <div id="mobile">
+          <div>
+            <p>
+              Mobile phone Number<span style="color: red; font-size: 15px"
+                >*</span
+              >
+            </p>
+            <input type="submit" value="IND +91" placeholder="" />
+          </div>
+          <div>
+            <p><span style="color: white">jjjjj</span></p>
+            <input id="mobileNumber" type="text" placeholder="Mobile No" />
+          </div>
+        </div>
+        <div style="display: flex">
+          <div>
+            <input
+              style="height: 20px; width: 20px; margin-top: 20px"
+              type="checkbox"
+            />
+          </div>
+          <div>
+            <p style="margin-top: 24px; color: black">
+              Receive text alerts about this trip (free of charge).
+            </p>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <div id="total">
+      <h2 style="margin-left: 20px">Price details</h2>
+      <div class="stline"></div>
+      <p id="roomData">
+        1 room x 1 night<span id="priceData">Cost of room</span>
+      </p>
+      <!-- give here cost of room  #priceData -->
+      <!-- ------------------------------------------------------------------------------------------------------------ -->
+      <p id="tax">
+        Taxes and service fees: 10%<span id="serviceFee">Give 10% </span>
+      </p>
+      <!-- give here cost of room of 10% is service takes #serviceFee -->
+      <!-- ----------------------------------------------------------------------------------------------------------------------- -->
+      <div class="stline"></div>
+      <p id="all">Total<span id="totalAmount">total amount</span></p>
+      <!-- give here total amount (cost of room  - seviceFee) id is #totalAmount -->
+      <!-- ----------------------------------------------------------------------------------------------------------------------------------- -->
+      <p style="color: gray">
+        Trip total includes GST that Expedia pays to its vendors (e.g. Hotels).
+        We retain our service fee for facilitating your travel reservation. For
+        details please see our terms of use.
+      </p>
+    </div>
+
+    <div id="bank">
+      <div id="box">
+        <div>
+          <i class="fa-solid fa-credit-card"></i>
+        </div>
+        <div>
+          <p class="secure">
+            <i class="fa-solid fa-check"></i>We use secure transmission
+          </p>
+        </div>
+        <div>
+          <p class="secure">
+            <i class="fa-solid fa-check"></i>We use secure transmission
+          </p>
+        </div>
+      </div>
+      <div id="box1">
+        <div class="debit">Debit/Credit Card</div>
+        <div class="stline"></div>
+        <div class="cardImg">
+          <div>
+            <img
+              src="	https://a.travel-assets.com/dms-svg/payments/cards-cc_master_card.svg"
+              alt="mastercard"
+            />
+          </div>
+          <div>
+            <img
+              src="https://a.travel-assets.com/dms-svg/payments/cards-cc_american_express.svg"
+              alt="American"
+            />
+          </div>
+          <div>
+            <img
+              src="https://a.travel-assets.com/dms-svg/payments/cards-cc_visa.svg"
+              alt="visa"
+            />
+          </div>
+          <div>
+            <img
+              src="https://a.travel-assets.com/dms-svg/payments/cards-cc_visa_electron.svg"
+              alt="Electron"
+            />
+          </div>
+        </div>
+        <form id="myform">
+          <p>Name on card<span style="color: red">*</span></p>
+          <input id="cardNumber" type="text" />
+          <p>Debit/Credit card number<span style="color: red">*</span></p>
+          <input id="creditCard" type="text" />
+          <p>Expire data<span style="color: red">*</span></p>
+          <div id="expire">
+            <div>
+              <select id="month">
+                <option value="month">month</option>
+                <option value="01">01-Jan</option>
+                <option value="02">02-Feb</option>
+                <option value="03">03-Mar</option>
+                <option value="04">04-Apr</option>
+                <option value="05">05-May</option>
+                <option value="06">06-Jun</option>
+                <option value="07">07-Jul</option>
+                <option value="08">08-Aug</option>
+                <option value="09">09-Sep</option>
+                <option value="10">10-oct</option>
+                <option value="11">11-Nov</option>
+                <option value="12">12-Dec</option>
+              </select>
+            </div>
+            <div>
+              <select id="month1">
+                <option value="">Year</option>
+                <option value="22">2022</option>
+                <option value="23">2023</option>
+                <option value="24">2024</option>
+                <option value="25">2025</option>
+                <option value="26">2026</option>
+                <option value="27">2027</option>
+                <option value="28">2028</option>
+                <option value="29">2029</option>
+                <option value="30">2030</option>
+                <option value="31">2031</option>
+                <option value="32">2032</option>
+              </select>
+            </div>
+          </div>
+          <p>Security code<span style="color: red">*</span></p>
+          <input id="cvv" type="text" />
+          <p>Pan Card<span style="color: red">*</span></p>
+          <input id="pan" type="text" />
+          <input type="submit" value="Validate Enter Data">
+        </form>
+      </div>
+    </div>
+    <div id="booking">
+      <p>Important information about your booking</p>
+
+      <ul>
+        <li>
+          This rate is non-refundable. If you change or cancel your booking you
+          will not get a refund or credit to use for a future stay. This policy
+          will apply regardless of COVID-19, subject to any local consumer laws.
+        </li>
+      </ul>
+      <ul>
+        <li>No refunds will be issued for late check-in or early check-out.</li>
+      </ul>
+      <ul>
+        <li>Stay extensions require a new reservation.</li>
+      </ul>
+      <ul>
+        <li>Front desk staff will greet guests on arrival.</li>
+      </ul>
+      <ul>
+        <li>
+          To register at this property, guests who are Indian citizens must
+          provide a valid photo identity card issued by the Government of India;
+          travelers who are not citizens of India must present a valid passport
+          and visa.
+        </li>
+      </ul>
+      <ul>
+        <li>
+          Please note that BEX Travel Asia Pte Ltd and the hotel will not issue
+          a tax invoice. You will receive a commercial receipt for the purpose
+          of the transaction.
+        </li>
+      </ul>
+      <p>
+        By clicking on the button below, I acknowledge that I have reviewed the
+        <span style="color: blue">Privacy Statement</span>and
+        <span style="color: blue">Government Travel Advice</span> and have
+        reviewed and accept the
+        <span style="color: blue">Rules & Restrictions</span>and
+        <span style="color: blue">Terms of Use.</span>
+      </p>
+      <button id="button" onclick="CompleteBooking()">Complete booking ></button>
+      <p style="color: gray">
+        <span><i class="fa-solid fa-lock"></i> </span> We use secure
+        transmission and encrypted storage to protect your personal information.
+      </p>
+      <p style="color: gray">
+        This payment will be processed in India. This does not apply when the
+        travel provider (airline/hotel/rail, etc.) processes your payment.
+      </p>
+    </div>
+  </body>
+</html>
+<script src="./js/review.js"></script>

@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <a href="/cars.html"></a>
+    <link rel="stylesheet" href="./style/stay_front.css" />
+  </head>
+  <body>
+    <!-- nav bar html code should be here -->
+    <div id="navbar">
+    
+      <div>
+          <div class="bar">
+              <img src="https://www.expedia.co.in/_dms/header/logo.svg?locale=en_GB&siteid=27&2" />
+          </div>
+          <div class="bar1">
+              <select class="select" onchange="MoreTravel()">
+                  <option value="More Travel">More Travel</option>
+                  <option value="stays">Stays</option>
+                  <option value="Flight">flight</option>
+                  <option value="Cars">Cars</option>
+                  <option value="Packages">packages</option>
+                  <option value="Holiday Package">holiday Package</option>
+                  <option value="Deals">Deals</option>
+                  <option value="Groups & Meetings">Groups & Meetings</option>
+                  <option value="Mobile">Moblie</option>
+              </select>
+          </div>
+      </div>
+      <div id="bar2">
+          <div id="box">
+              <div>
+                  <img id="img1" src="https://cdn-icons-png.flaticon.com/512/558/558593.png" alt="wed">
+              </div>
+              <div><a href="">English</a></div>
+          </div>
+          <div><a href="">Support</a></div>
+          <div><a href="">Trips</a></div>
+          <div class="hcolor4">Sign in</div>
+          <div class="hcolor10">Create Account</div>
+      </div>
+  
+  </div>
+  <div id="line"></div>
+
+    <h1 class="heading">Search Stays</h1>
+    <!-- search bar form is here -->
+    <!-- <form action="" id="SearchForm"> -->
+      <div id="formcontainer">
+        <div>
+          <input type="text" id="place" placeholder="Going to" />
+        </div>
+        <div>
+          <label for="check-in">Check-in</label>
+          <input
+            type="date"
+            name="checkInDate"
+            id="checkInDate"
+            placeholder="Check-In"
+          />
+        </div>
+        <div>
+          <label for="check-out">Check-out</label>
+          <input
+            type="date"
+            name="CheckOutDate"
+            id="checkOutDate"
+            placeholder="Check-Out"
+          />
+        </div>
+        <div>
+          <p id="travNo">Traveler~2</p>
+          <p id="roomNo">Rooms~1</p>
+          <button onclick="addT()" id="addt">+ Traveler</button>
+          <button onclick="removeT()" id="removet">- traveler</button>
+          <button onclick="addR()" id="addr">+ Rooms</button>
+          <button onclick="removeR()" id="remover">- Rooms</button>
+        </div>
+      </div>
+      <button onclick="searchbtn()" id="search" >Search</button>
+    <!-- </form> -->
+    <h1 class="heading">Ideals for your next trip</h1>
+    <div id="idealDiv">
+      <div>
+        <img
+          src="https://www.jhinvestments.com/content/dam/JHINV/public/Corporate/Viewpoints/Viewpoints/tl-17805-what-is-inflation/viewpoints-TL-17805-what-is-inflation-hero-1040x425.jpg"
+          alt=""
+        />
+        <h3>Free cancellation on most of the hotels</h3>
+        <p>Because flaxibility matters</p>
+      </div>
+      <div>
+        <div class="idealRight">
+          <div>
+            <img
+              src="https://media.istockphoto.com/photos/luxury-travel-romantic-couple-in-beach-hotel-picture-id1213840216?k=20&m=1213840216&s=612x612&w=0&h=XTT-5KD8VdcQJnlq02dH2-znH41R0P4p7F36vMiWfPY="
+              alt="sunsetpointImg"
+            />
+          </div>
+          <div>
+            <h2>Find your next gateway</h2>
+            <p>Last minute deals are available</p>
+          </div>
+        </div>
+        <div class="idealRight">
+          <div>
+            <img
+              src="https://images.unsplash.com/photo-1584132869994-873f9363a562?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmVhY2glMjBob3RlbHxlbnwwfHwwfHw%3D&w=1000&q=80"
+              alt=""
+            />
+          </div>
+          <div>
+            <h2>Find the perfect holiday to look forward to</h2>
+            <p>Save today on a trip for tomorrow</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h1 class="heading">Explore, discover and save</h1>
+    <div id="explore">
+      <div>
+        <h6>Plan ahead and Save</h6>
+        <p>Book 60 days in advance for 20% discount</p>
+      </div>
+      <div></div>
+    </div>
+    <div id="app">
+      <div></div>
+      <div>
+        <h2>Plan your trip in a snap on the app</h2>
+        <p>
+          From home or hammock, organise your entire escape and explore app
+          offers
+        </p>
+        <p>Text yourself a download link</p>
+        <div id="appmobileno">
+          <select name="country code" id="countryCode">
+            <option value="india">India +91</option>
+            <option value="pak">Pakistan +92</option>
+            <option value="afg">Afganistan +93</option>
+            <option value="Austria">Austria +43</option>
+            <option value="maxico">maxico +52</option>
+          </select>
+          <input type="number" id="mobileNo" placeholder="Mobile No" />
+          <button id="getApp">Get the app</button>
+        </div>
+        <p>
+          By providing your number, you agree to receive a one-time automated
+          text message with a link to get the app. Standard text message rates
+          may apply.
+        </p>
+      </div>
+      <div id="qr">
+        <img
+          src="https://a.travel-assets.com/mad-service/qr-code/footer_qr/27_QR_FOOTER.png"
+          alt="App QR"
+        />
+        <h5>SCAN THE QR CODE</h5>
+      </div>
+    </div>
+    <div id="moreOption">
+      <h2>More trip option</h2>
+      <a href="">Explore a world of travel with Expedia</a>
+      <div>
+        <h3>Hotel deals on domestic destinations</h3>
+        <div class="moreScroll">
+          <div>
+            <p><a href="">Nangi hotels</a></p>
+            <p><a href="">Mahabaleshwar Hotels</a></p>
+            <p><a href="">Delhi Hotels</a></p>
+            <p><a href="">Bangalore Hotels</a></p>
+            <p><a href="">South Goa Hotels</a></p>
+          </div>
+          <div>
+            <p><a href="">kutta hotels</a></p>
+            <p><a href="">Nandi Hills Hotels</a></p>
+            <p><a href="">Ooty Hotels</a></p>
+            <p><a href="">Manali Hotels</a></p>
+            <p><a href="">Goa Hotels</a></p>
+          </div>
+        </div>
+        <h3>Book hotels internationally</h3>
+        <div class="moreScroll">
+          <div>
+            <p><a href="">Koh Samui Islands Hotels</a></p>
+            <p><a href="">Bali Hotels</a></p>
+            <p><a href="">Langkawi Hotels</a></p>
+            <p><a href="">Phuket Hotels</a></p>
+          </div>
+          <div>
+            <p><a href="">Singapore Hotels</a></p>
+            <p><a href="">London Hotels</a></p>
+            <p><a href="">Pattaya Hotels</a></p>
+            <p><a href="">New York Hotels</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- footer code -->
+<div id="footer">
+    
+  <div>
+      <img aria-label="opens in a new window"
+          src="https://a.travel-assets.com/globalcontrols-service/content/f285fb631b0a976202ef57611c7050e9ef5ca51a/images/EG_Wordmark_blue_RGB.svg"
+          alt="Expedia Group Logo" width="100%">
+  </div>
+  <div>
+      <h5>Company</h5>
+      <P class="blue">About</P>
+      <P class="blue">Jobs</P>
+      <P class="blue">List your property</P>
+      <P class="blue">partnerships</P>
+  </div>
+  <div>
+      <h5>Explore</h5>
+      <p class="blue">India travel guide</p>
+      <p class="blue">Hotels in india</p>
+      <p class="blue">Holiday packages in india</p>
+      <p class="blue">holiday rentals in india</p>
+      <p class="blue">Domestic flights</p>
+      <p class="blue">Car hire in india</p>
+      <p class="blue">All accommodation tpes</p>
+      <p class="blue">Travel blog</p>
+
+  </div>
+  <div>
+      <h5>Terms and policies</h5>
+      <p class="blue">Privacy Statement</p>
+      <p class="blue">Terms of use</p>
+  </div>
+  <div>
+      <h5>Help</h5>
+      <p class="blue">Support</p>
+      <p class="blue">Change or cancel your booking</p>
+      <p class="blue">Refund process and timeslines</p>
+      <p class="blue">Book a flight using an airline credit</p>
+      <p class="blue">International travel documents</p>
+  </div>
+</div>
+<div id="line12"></div>
+
+<div id="lastbox">
+  <img src="https://images.trvl-media.com/media/content/expind/images/sg/secure.png"
+      alt="Secured Site - Verizon Cybertrust Security">
+</div>
+<div id="lastbox1">
+  <p class="black1">© 2022 Expedia, Inc., an Expedia Group company / Expedia Asia Holdings Mauritius / BEX Travel Asia
+      Pte. Ltd. All rights
+      reserved. Expedia and the Airplane Logo are trademarks or registered trademarks of Expedia, Inc.</p>
+</div>
+
+  </body>
+</html>
+
+<script src="./js/stay_front.js"></script>
