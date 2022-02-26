@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        #new{
+            text-align: center;
+        }
+        #teal{
+            margin:auto 2px;
+            height:20px;
+            width:350px;
+            border-radius:10px ;
+        }
+        .uppercontent {
+            justify-content:left;
+            text-align: left;
+
+        }
+        .teal{
+            
+            display:flex; width:300px;border-radius: 10px;padding-bottom: 5px
+        }
+        #box{
+            background-color: blue;
+            justify-content: center;
+            text-align: center;
+            height:50px;
+            width:100px;
+            border-radius:10px ;
+            margin:auto 500px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+    <!--nav bar html code should be there-->
+    <h1>Search Packages</h1>
+    <!--search bar form is here-->
+    <form action=""id="SearchForm">
+        <div class="kr">      
+            <p>Choose one or more items to build your trip:</p>
+            <div class="teal">
+                <button id="teal">Stayadded</button>
+                <button style="border-radius:10px;width:350px;height:20px;">Flightadded</button>
+                <button style="border-radius:10px; width:400px;height:20px;">Addacar</button>
+            </div>  
+            <div style="text-align:right;">
+                <a href="file:///C:/Users/krishna%20yadav/Desktop/index/room.html"target="_parent">1 room,2 Travlers</a>
+                <a href="file:///C:/Users/krishna%20yadav/Desktop/index/economy.html" target="framename">Economy</a>
+
+            </div> 
+        </div>
+        <div id="Formcontainer"
+        style="display:flex;">
+            <div>
+                <i class="fa-map-marker" aria-hidden="true"></i>
+              <input type="text" id="place"; placeholder="Leaving from"/>
+            </div>
+            <div>
+                <input type="text" id="place"; placeholder="Going to"/>
+            </div>
+            <div>
+                <label for="Departing">Departing</label>
+                <input
+                 type="date"
+                 name="DepartingDate"
+                 id="DepartingDate"
+                 placeholder="Departing"
+                 />
+            </div>
+            <div>
+                <label for="Returning" style="height:50px;width:300px;">Returning</label>
+                <input
+                type="date"
+                name="ReturningDate"
+                id="ReturningDate"
+                placeholder="Returning"
+                />
+            </div>
+            
+        </div>
+        <div style="display:flex">
+            <input type="checkbox"/><p>I only need accommodations for part of my trip</p>
+                </div>
+    </form>
+    <button id="box">Search</button>
+    <h1>Here to help keep you on the move</h1>
+    <div style="display:flex;width:100%;border:1px;">
+        <div style="height:80px;width:300px;padding:20px;outline:3px #343b53;   border: 1px;">
+            <h3>Change or cancel a trip</h3>
+            <p>Make updates to your itinerary or cancel a booking</p>
+        </div>
+        <div style="height:80px;width:300px;outline:3px #343b53;text-align: left;padding: 20px;">
+            <h3>Use a credit or coupon</h3>
+            <p> Apply a coupon code or credit to a new trip</p>
+        </div>
+        <div style="height:80px;width:300px;outline:3px #343b53;text-align: left;padding: 20px;">
+           <h3>Track your refund</h3>
+           <p>Check the status of a refund currently in progress</p>
+        </div>
+    </div>
+    <div style="padding-bottom:1%; margin-left:auto;">
+        <h1>Ideals for your next trip</h1>
+        <img 
+          style="height:500px;width:1500px;"
+        src="https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="travels"/>
+    </div>
+    <div style="display:flex;">
+        <div style="padding-right:10px;">
+            <img 
+            style="height:200px;width:300px;"
+            src="https://tse2.mm.bing.net/th?id=OIP.KDWSRiTZEzhj3Iqr3VbeXwHaE8&pid=Api&P=0&w=265&h=177"/>
+            <p>VIP ACCESS</p>
+            <h4>The view looks even better as a VIP</h4>
+        </div>
+        <div>
+            <img
+            style="height:200px;width:300px;"
+            src="https://tse1.mm.bing.net/th?id=OIP.FyCOi5tamCEjU25sdEkt9wHaE8&pid=Api&P=0&w=235&h=157"/>
+            <p>COLD CRISPINESS</p>
+            <h4>Get the chills. From the cold and the adrenaline</h4>
+        </div>
+        <div>
+            <img 
+            style="height:200px;width:300px;"
+            src="https://tse2.mm.bing.net/th?id=OIP.yUkL807eqatQ9avjS1njwQHaEy&pid=Api&P=0&w=240&h=155"/>
+            <p>WHERE TO NEXT?</p>
+            <h4>Find flights that will take you to the most loved places</h4>
+        </div>
+    </div>
+    <div style="display:flex; margin:auto;">
+        <div style="padding-left:30px;margin-right:auto;">
+            <img
+            style="height:270px; width:450px;"
+            src="https://images.unsplash.com/photo-1532715088550-62f09305f765?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=861&q=80"/>
+            <p>SAVE MORE, TRAVEL MORE</p>
+            <h4>Members get more—join now for exclusive discounts and perks</h4>
+        </div>
+        <div style="padding-right:50px;margin-right: 10%;">
+            <img 
+            style="height:270px; width:450px;"
+            src="https://images.unsplash.com/photo-1590523277543-a94d2e4eb00b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80" alt="dream"/>
+            <p>LOOKS LIKE A DREAM</p>
+            <h4>A little look at 2022’s dream destinations</h4>
+        </div>
+    </div>
+    <div style="display:flex;border:solid #b9b6b8;margin-bottom:100px;">
+        <div>
+            <img 
+            style="height:270px; width:350px;"
+            src=" https://images.unsplash.com/photo-1509650926597-25eead3b6ca9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="plan"/>
+        </div>
+        <div style="height:200px; width:500px;padding-bottom:0px;margin-bottom: 20px;">
+            <h1>Plan your trip in a snap on the app</h1>
+            <p>From home or hammock, organize your entire escape and explore app offers</p>
+                 <h3>Text yourself a download link</h3>
+                 <select name="countryCode" id="">
+                    <option data-countryCode="GB" value="44" Selected>Norway (+47)</option>
+                    <option data-countryCode="US" value="1">UK (+44)</option>
+                    <optgroup label="Other countries">
+                        <option data-countryCode="DZ" value="213">Algeria (+213)</option>
+                        <option data-countryCode="AD" value="376">Andorra (+376)</option>
+                        <option data-countryCode="AO" value="244">Angola (+244)</option>
+                        <option data-countryCode="AI" value="1264">Anguilla (+1264)</option>
+                        <option data-countryCode="AG" value="1268">Antigua &amp; Barbuda (+1268)</option>
+                        <option data-countryCode="AR" value="54">Argentina (+54)</option>
+                        <option data-countryCode="AM" value="374">Armenia (+374)</option>
+                        <option data-countryCode="AW" value="297">Aruba (+297)</option>
+                        <option data-countryCode="AU" value="61">Australia (+61)</option>
+                        <option data-countryCode="AT" value="43">Austria (+43)</option>
+                        <option data-countryCode="AZ" value="994">Azerbaijan (+994)</option>
+                        <option data-countryCode="BS" value="1242">Bahamas (+1242)</option>
+                        <option data-countryCode="BH" value="973">Bahrain (+973)</option>
+                        <option data-countryCode="BD" value="880">Bangladesh (+880)</option>
+                        <option data-countryCode="BB" value="1246">Barbados (+1246)</option>
+                        <option data-countryCode="BY" value="375">Belarus (+375)</option>
+                        <option data-countryCode="BE" value="32">Belgium (+32)</option>
+                        <option data-countryCode="BZ" value="501">Belize (+501)</option>
+                        <option data-countryCode="BJ" value="229">Benin (+229)</option>
+                        <option data-countryCode="BM" value="1441">Bermuda (+1441)</option>
+                        <option data-countryCode="BT" value="975">Bhutan (+975)</option>
+                        <option data-countryCode="BO" value="591">Bolivia (+591)</option>
+                        <option data-countryCode="BA" value="387">Bosnia Herzegovina (+387)</option>
+                        <option data-countryCode="BW" value="267">Botswana (+267)</option>
+                        <option data-countryCode="BR" value="55">Brazil (+55)</option>
+                        <option data-countryCode="BN" value="673">Brunei (+673)</option>
+                        <option data-countryCode="BG" value="359">Bulgaria (+359)</option>
+                        <option data-countryCode="BF" value="226">Burkina Faso (+226)</option>
+                        <option data-countryCode="BI" value="257">Burundi (+257)</option>
+                        <option data-countryCode="KH" value="855">Cambodia (+855)</option>
+                        <option data-countryCode="CM" value="237">Cameroon (+237)</option>
+                        <option data-countryCode="CA" value="1">Canada (+1)</option>
+                        <option data-countryCode="CV" value="238">Cape Verde Islands (+238)</option>
+                        <option data-countryCode="KY" value="1345">Cayman Islands (+1345)</option>
+                        <option data-countryCode="CF" value="236">Central African Republic (+236)</option>
+                        <option data-countryCode="CL" value="56">Chile (+56)</option>
+                        <option data-countryCode="CN" value="86">China (+86)</option>
+                        <option data-countryCode="CO" value="57">Colombia (+57)</option>
+                        <option data-countryCode="KM" value="269">Comoros (+269)</option>
+                        <option data-countryCode="CG" value="242">Congo (+242)</option>
+                        <option data-countryCode="CK" value="682">Cook Islands (+682)</option>
+                        <option data-countryCode="CR" value="506">Costa Rica (+506)</option>
+                        <option data-countryCode="HR" value="385">Croatia (+385)</option>
+                        <option data-countryCode="CU" value="53">Cuba (+53)</option>
+                        <option data-countryCode="CY" value="90392">Cyprus North (+90392)</option>
+                        <option data-countryCode="CY" value="357">Cyprus South (+357)</option>
+                        <option data-countryCode="CZ" value="42">Czech Republic (+42)</option>
+                        <option data-countryCode="DK" value="45">Denmark (+45)</option>
+                        <option data-countryCode="DJ" value="253">Djibouti (+253)</option>
+                        <option data-countryCode="DM" value="1809">Dominica (+1809)</option>
+                        <option data-countryCode="DO" value="180"></option>
+                        <label for="phone">Mobile no.</label>
+                        <input type="tel"
+                        id="phone" name=mobile no./>
+                        <button style="background-color:blue  ">Get the app</button>
+                        <p>By providing your number, you agree to receive a one-time automated text message with a link to get the app. Standard text message rates may apply.</p>
+                    </div>
+        
+        <div style="height:200px;width:300px;">
+            <img
+            style="height:200px; width:200px;"
+            src="https://a.travel-assets.com/mad-service/qr-code/footer_qr/1_QR_FOOTER.png" alt="scan"/>
+        </div>
+    </div>
+
+        <div id="new">
+            <p style="text-align: center;">Be inspired and discover more with Expedia</p>
+            <a href="https://www.expedia.com/">Discover new places and experiences</a>
+        </div>
+    <div style="display:flex">
+        <div style="padding-right:10%;">
+            <img src="https://a.travel-assets.com/globalcontrols-service/content/f285fb631b0a976202ef57611c7050e9ef5ca51a/images/EG_Wordmark_blue_RGB.svg" alt="expedia"/>
+
+        </div>
+        <div style="display:grid; padding-right:5%;">
+            <h2>Company</h2>
+            <a href="https://www.expediagroup.com/">Abouts</a>
+            <a href="https://lifeatexpediagroup.com/">Jobs</a>
+            <a href="https://apps.expediapartnercentral.com/en_US/list?utm_medium=referral&utm_source=wwwexpediacom-en_US&utm_campaign=Brand.DTI&utm_contentewd=footer-btn&siteId=1&tpid=1&eapid=0&langId=1033&utm_term=Brand.DTI&lasttouchMktgcode=Brand.DTI">List your property</a>
+            <a href="https://www.expediagroup.com/partnerships/">Partnerships</a>
+            <a href="https://newsroom.expedia.com/">Newsroom</a>
+            <a href="https://ir.expediagroup.com/investors-overview/default.aspx">Investor Relations</a>
+            <a href="https://advertising.expedia.com/getting-started/brands/expedia/">Advertising</a>
+        </div>
+        <div style="padding-left: 20px; display:grid;">
+            <h3>Explore</h3>
+            <a href="https://www.expedia.com/United-States-Of-America.dx201" style="padding-top:10%;">United States of America travel guide</a>
+            <a href="https://www.expedia.com/Destinations-In-United-States-Of-America.d201.Hotel-Destinations">Hotels in United States of America</a>
+            <a href="https://www.expedia.com/Destinations-In-United-States-Of-America.d201.Vacation-Rental-Destinations">Vacation rentals in United States of America</a>
+            <a href="https://www.expedia.com/United-States-Of-America.d201.Destination-Travel-Guides">Vacation packages in United States of America</a>
+            <a href="https://www.expedia.com/Destinations-In-United-States-Of-America.d201.Flight-Destinations">Domestic flights</a>
+            <a href="https://www.expedia.com/Destinations-In-United-States-Of-America.d201.Car-Rental-Destinations">Car rentals in United States of America </a>
+            <a href="https://www.expedia.com/Accommodations">All accommodation types</a>
+        </div>
+        <div style="display:grid;padding-left:20px;">
+            <h3>Terms and Policies</h3>
+            <a href="https://www.expedia.com/lp/lg-privacypolicy">Privacy Policy</a>
+            <a href="https://www.expedia.com/lp/lg-legal"> Terms of use</a>
+            <a href="https://www.expedia.com/loyaltyrewards/pages/info-rewards/expediarewards/terms.htm">Expedia Rewards Terms</a>
+            <a href="https://www.expedia.com/p/info-other/web-accessibility-policy">Accessibility</a>
+            <a href="https://www.expedia.com/dnsmpi">Do not sell my personal information</a>
+         </div>
+        <div style="display:grid;padding-left:30px;">
+            <h3>Help</h3>
+            <a href="https://www.expedia.com/service/">Support</a>
+            <a href="https://www.expedia.com/service/#/articles/399/34/12326">Cancel your hotel or vacation rental booking</a>
+            <a href="https://www.expedia.com/service/#/articles/397/34/12324">Cancel your flight</a>
+            <a href="https://www.expedia.com/service/#/articles/396/53/15253">Refund timelines, policies & processes</a>
+            <a href="https://www.expedia.com/service/#/articles/396/53/12385">Use an Expedia coupon</a>
+            <a href="https://www.expedia.com/service/#/articles/396/52/12386">International travel documents</a>
+        </div>
+    </div>
+    <div style="display:flex;border-top:solid #b9b6b8;">
+        <p>Expedia, Inc. is not responsible for content on external Web sites.
+            © 2022 Expedia, Inc., an Expedia Group company. All rights reserved. Expedia and the Airplane Logo are trademarks or registered trademarks of Expedia, Inc. CST# 2029030-50.</p>
+            <button style="text-align:left; justify-content: left;border-radius: 10px;height:auto;width:auto;background-color:#3662d8;;">help</button>
+    </div>
+</body>
+</html>
