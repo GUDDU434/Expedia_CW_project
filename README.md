@@ -1,12 +1,28 @@
 # Expedia_CW_project
 
 In Unit 2 construct week we got the project to clone Expedia.com. It is a travel booking website where we can book hotel rooms, flights, cars, holiday packages etc.
-In this, my contribution is the car booking part of Expedia.
 
-1. In this, you can book a car from 1 pick-up point to a drop-off point according to your convenient date and time.
+1. Our construct week project on Expedia cloning
+Home page or Landing page of our website
+In this, you can book a car from 1 pick-up point to a drop-off point according to your convenient date and time.
 
 
 ![cars](https://user-images.githubusercontent.com/99031812/155835029-8cc0ee32-5352-4710-8fc1-b0077762a03c.PNG)
+
+2. create accout if you don't have any account on website
+ 
+ ![3](https://user-images.githubusercontent.com/99042645/155830776-24a9d318-7537-4f1e-9b1a-27360a51bde7.JPG)
+ 
+3. Once you create the account then you have to sign in 
+ 
+![2](https://user-images.githubusercontent.com/99042645/155830873-8e10eb7c-cd3f-490c-8d4d-161cba7178bd.JPG)
+
+4. Once you Login in to your account Your Name will display at right corner of the every page
+then when you click on more travel option there you will see verious option such as stays, flight, cars, pakage hotel etc.
+
+![4](https://user-images.githubusercontent.com/99042645/155831032-92e62f9e-b06c-4418-b307-f986f7cda4b3.JPG)
+
+
 
 
 
