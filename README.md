@@ -6,8 +6,7 @@ In Unit 2 construct week we got the project to clone Expedia.com. It is a travel
 Home page or Landing page of our website
 In this, you can book a car from 1 pick-up point to a drop-off point according to your convenient date and time.
 
-
-![cars](https://user-images.githubusercontent.com/99031812/155835029-8cc0ee32-5352-4710-8fc1-b0077762a03c.PNG)
+![1](https://user-images.githubusercontent.com/99042645/155830675-999b5781-f798-448e-bb39-df4e36724cdf.JPG)
 
 2. create accout if you don't have any account on website
  
