@@ -17,29 +17,27 @@ Home page or Landing page of our website
 
 4. Once you Login in to your account Your Name will display at right corner of the every page
 then when you click on more travel option there you will see verious option such as stays, flight, cars, pakage hotel etc.
+
+
 ![cars](https://user-images.githubusercontent.com/99031812/155841785-f8645ba3-ea1c-40db-b442-89a690ac2e6a.PNG)
 
 
-5.In this, you can book a car from 1 pick-up point to a drop-off point according to your convenient date and time.
-You can also book a car directly from Airport to your hotel and we also provide return booking too.
+5.In this, you can book a car by clicking on car-hire, from 1 pick-up point to a drop-off point according to your convenient date and time.
 
 
-![airport](https://user-images.githubusercontent.com/99031812/155835108-a0f1027c-d972-43d2-b146-1dfdb0ee6077.PNG)
+![123](https://user-images.githubusercontent.com/99031812/155842104-88bbfcfd-1713-42d2-9560-c8fa3876ecae.PNG)
 
 
+6.You can also book a car directly from Airport to your hotel by clicking on Airport transport and we also provide return booking too.
 
-3.Once you select your pick-up and drop-off point, date and time once submit you will reach a landing page where we give you options and prices so that you can book a car.
+![12](https://user-images.githubusercontent.com/99031812/155842205-1350ebd9-adc4-4a2a-8d0d-6e57625ea3f4.PNG)
+
+
+7.Once you select your pick-up and drop-off point, date and time once submit you will reach a landing page where we give you options and prices so that you can book a car.
 
 
 ![a](https://user-images.githubusercontent.com/99031812/155835440-d660bfdd-c4fb-42bb-b642-3d3a347cbccd.PNG)
 
 ![2](https://user-images.githubusercontent.com/99031812/155835224-14fedfa9-0c40-4ffa-8be4-b33cc84f710b.PNG)
-
-
-4.This is the page where you can find the other pictures and views of your hotel room and the facility provided by the hotel.
-
-![room](https://user-images.githubusercontent.com/99031812/155835370-12987c5d-b4e6-4d5c-b3ff-e89658631c51.PNG)
-
-
 
 
