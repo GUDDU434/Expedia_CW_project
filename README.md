@@ -19,9 +19,7 @@ In this, you can book a car from 1 pick-up point to a drop-off point according t
 
 4. Once you Login in to your account Your Name will display at right corner of the every page
 then when you click on more travel option there you will see verious option such as stays, flight, cars, pakage hotel etc.
-
-![4](https://user-images.githubusercontent.com/99042645/155831032-92e62f9e-b06c-4418-b307-f986f7cda4b3.JPG)
-
+![cars](https://user-images.githubusercontent.com/99031812/155841785-f8645ba3-ea1c-40db-b442-89a690ac2e6a.PNG)
 
 
 
