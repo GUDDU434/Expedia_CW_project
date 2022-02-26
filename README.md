@@ -4,7 +4,6 @@ In Unit 2 construct week we got the project to clone Expedia.com. It is a travel
 
 1. Our construct week project on Expedia cloning
 Home page or Landing page of our website
-In this, you can book a car from 1 pick-up point to a drop-off point according to your convenient date and time.
 
 ![1](https://user-images.githubusercontent.com/99042645/155830675-999b5781-f798-448e-bb39-df4e36724cdf.JPG)
 
@@ -21,9 +20,8 @@ then when you click on more travel option there you will see verious option such
 ![cars](https://user-images.githubusercontent.com/99031812/155841785-f8645ba3-ea1c-40db-b442-89a690ac2e6a.PNG)
 
 
-
-
-2.You can also book a car directly from Airport to your hotel and we also provide return booking too.
+5.In this, you can book a car from 1 pick-up point to a drop-off point according to your convenient date and time.
+You can also book a car directly from Airport to your hotel and we also provide return booking too.
 
 
 ![airport](https://user-images.githubusercontent.com/99031812/155835108-a0f1027c-d972-43d2-b146-1dfdb0ee6077.PNG)
