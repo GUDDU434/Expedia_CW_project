@@ -1,0 +1,327 @@
+
+#signLogo{
+    width:100%;
+    height:60px;
+    display: flex;
+   background-color: white;
+}
+#signLogo>div{
+    display: block;
+    width:50%;
+}
+body{
+    background-color:#ededed;
+}
+#signLogo>div>img{
+    height: 38px;
+    width:134px;
+   margin-top: 10px;
+   margin-left:30px;
+}
+#signLogo>div>p{
+    text-align: end;
+    margin-right: 130px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.stline{
+    width:100%;
+    height:0.5px; 
+    background-color: rgb(196, 194, 194);
+}
+#review{
+    height:400px;
+    width:30%;
+    border: 1px dashed rgb(10, 214, 129);
+    display: inline-block;
+    margin-right: 50px;
+    margin-left:850px;
+     background-color: white;
+     padding: 5px;
+}
+#rwimage{
+    border-radius: 10px;
+    border: gray 1px solid;
+    height: 45%;
+    background-image:url("https://images.trvl-media.com/hotels/6000000/5310000/5301700/5301691/070317a4_l.jpg") ;
+}
+                            /*  here you can see having the append css #review */
+/* ----------------------------------------------------------------------------------------------------------------------- */
+#HotelName{
+    margin-top: 25%;
+    color: white;
+}
+#name{
+    margin-left: 8%;
+}
+#hBook{
+     height:80px;
+    width:55%;
+    display: flex;
+    margin-left: 100px;;
+    margin-top:-400px;
+     background-color: white;
+}
+#room{
+      height:400px;
+    width:55%;
+    display: flex;
+    margin-left:100px;
+    margin-top:15px; 
+     background-color: white;
+   
+}
+#total{
+     height:350px;
+    width:30%;
+    display: inline-block;
+    margin-right: 50px;
+    margin-left:850px;
+    margin-top:-50px;
+     background-color: white;
+     box-sizing: border-box;
+     padding-left: 30px;
+     padding-right: 30px;;
+}
+#roomData,#tax{
+    font-size: large;
+    text-align: start;
+}
+#priceData{
+   font-size: large;
+    text-align: end;
+    padding-left: 110px;
+}
+#serviceFee{
+    font-size: large;
+    text-align: end;
+    padding-left: 65px;
+}
+#totalAmount{
+      text-align: end;
+    padding-left: 150px;
+      font-size: 25px;
+    font-weight: bold;
+}
+#all{
+    font-size: large;
+    text-align: start;
+    font-size: 23px;
+    font-weight: bold;
+}
+#bank{
+     height:620px;
+    width:55%;
+    display: flex;
+    margin-left:100px;
+    margin-top:-330px; 
+     background-color: white;
+}
+#booking{
+    height:530px;
+    width:55%;
+    display: inline-block;
+    margin-left:100px;
+    margin-top:20px; 
+    box-sizing: border-box;
+    padding-left: 20px;;
+     background-color: white;
+     text-align: justify;
+     padding-right:40px;
+}
+i{
+    margin-top:13px;
+    margin-left:20px;
+    
+}
+#form{
+    height:350px;
+    width:80%;
+    margin-left:-200px;
+    margin-top: 60px;
+    box-sizing:border-box;
+}
+#form>input{
+    height: 38px;
+    width:200px;
+    border: 1px solid gray;
+    border-radius: 5px;    
+    margin-top: -10px;; 
+}
+#form>p{
+    color: black;
+     font-weight: bold;
+}
+#form>div>div>p{
+    color:  black;
+     font-weight: bold;
+}
+#fName{
+    display: flex;
+    gap:10px;
+    margin-top: -20px;
+}
+#fName>div>input{
+      height: 38px;
+    width:200px;
+    border: 1px solid gray;
+    border-radius: 5px;   
+    margin-top:-15px; 
+    color:black
+}
+#mobile{
+    display: flex;
+    gap:10px;
+}
+
+#mobile>div>input{
+     height: 38px;
+    width:200px;
+    border: 1px solid gray;
+    border-radius: 5px;   
+    margin-top:-15px; 
+}
+#mobileNumber{
+    margin-top:100px;
+   
+}
+#box{
+    height:30px;
+    width:90%;
+    display: flex;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-left:15px;
+    
+}
+#box>div:nth-child(1){
+    height:30px;
+    width:7%;
+    margin-right:10px;
+}
+#box>div:nth-child(2){
+    height:30px;
+    width:40%;
+    margin-right:10px;
+    margin-left:-20px;
+    color: green;
+}
+#box>div:nth-child(3){
+    height:30px;
+    width:40%;
+    color: green;
+     margin-left:-30px;
+}
+.secure{
+    font-size: 16px;
+    margin-top:0px
+}
+.debit{
+    height:30px;
+    width:150px;
+  
+    background-color: rgb(230, 225, 225);
+    text-align: center;
+    padding-top: 5px;
+    box-sizing: border-box;
+}
+#box1{
+    height:80px;
+    width:80%;
+    margin-left:-605px;
+    margin-top: 60px;
+}
+.stline{
+    width:1005;
+    height:1px;
+    background-color: gray;
+}
+.cardImg{
+    height:30px;
+    width:230px;
+    margin-top:10px;
+    display: flex;
+}
+.cardImg>div{
+       height:30px;
+       width:21%;
+       margin-right: 5px;;
+}
+.cardImg>div>img{
+    width:100%;
+}
+#myform{
+    height:430px;
+    width:80%;
+    margin-top:30px;
+}
+#cardNumber{
+    height:32px;
+    width:350px;
+    border: 1px solid gray;
+    border-radius: 5px;    
+    margin-top: -10px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+}
+#creditCard{
+     height:32px;
+    width:250px;
+    border: 1px solid gray;
+    border-radius: 5px;    
+    margin-top: -10px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+}
+#expire{
+    height:50px;
+    width:50%;
+    display: flex;
+    
+}
+#month{
+    height:35px;
+    width:100px;
+    text-align: center;
+    margin-right:10px;
+    font-size: 16px;
+       box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+}
+#month1{
+    height:35px;
+    width:100px;
+    text-align: center;
+     font-size: 16px;
+        box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+}
+#cvv{
+     height:32px;
+    width:80px;
+     box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+     border:0.5px solid gray;
+     border-radius:5px;
+}
+#pan{
+     height:32px;
+    width:200px;
+     box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+     border:0.5px solid gray;
+     border-radius:5px;
+}
+#booking>ul>li{
+     font-size: 15px;
+     color:gray;
+     font-weight:500;
+}
+#button{
+    height:50px;
+    width:180px;
+    background-color: #ffc748;
+    font-size: 18px;
+    border:1px solid black;
+    border-radius:5px;
+    font-weight: 400;
+}
+#button:hover{
+    background-color:rgb(255, 196, 0);
+    border:1px solid blue;
+}
