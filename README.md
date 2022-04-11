@@ -1,4 +1,5 @@
 # Expedia_CW_project
+
 Our construct week project on Expedia cloning
 
 1. Home page or Landing page of our website 
@@ -41,18 +42,3 @@ you can see all the details total price price etc.
 ![11](https://user-images.githubusercontent.com/99042645/155831561-e056e4f1-743c-498f-9857-f122985a9ed7.JPG)
 
 11. Once you click on the confirm booking button payment will be sucessful and the hotel will reserved on your name fo that perticular date.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
