@@ -1,6 +1,12 @@
 # Expedia_CW_project
 
-Our construct week project on Expedia cloning
+This is our first colaborative project which we have worked on during our construct week. We have completed it in six days.
+<br/>
+Here is the Netliy link: https://epic-babbage-48d7bc.netlify.app/index.html 
+<br/>
+You can also visit our blog to know more about this project: <a href="https://medium.com/@gudduali93/experience-of-unit-2-construct-week-at-masai-school-71ace457920f">Blog<a/>
+ 
+ ## Here is some Screenshots of our website:
 
 1. Home page or Landing page of our website 
 ![1](https://user-images.githubusercontent.com/99042645/155830675-999b5781-f798-448e-bb39-df4e36724cdf.JPG)
