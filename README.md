@@ -5,7 +5,11 @@ This is our first colaborative project which we have worked on during our constr
 Here is the Netliy link: https://epic-babbage-48d7bc.netlify.app/index.html 
 <br/>
 You can also visit our blog to know more about this project: <a href="https://medium.com/@gudduali93/experience-of-unit-2-construct-week-at-masai-school-71ace457920f">Blog<a/>
- 
+<br/>
+ ## Tech stacks or languages we have used:
+ -HTML
+ -CSS
+ -JavaScript
  ## Here is some Screenshots of our website:
 
 1. Home page or Landing page of our website 
